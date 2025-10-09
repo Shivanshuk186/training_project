@@ -1,18 +1,40 @@
 # training_project
-Simple PDF Q&A Chatbot
+🤖 Simple PDF Q&A Chatbot
+<p align="center">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" alt="Python"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/scikit--learn-F7931E%3Fstyle%3Dfor-the-badge%26logo%3Dscikit-learn%26logoColor%3Dwhite" alt="scikit-learn"/>
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Numpy-013243%3Fstyle%3Dfor-the-badge%26logo%3Dnumpy%26logoColor%3Dwhite" alt="Numpy"/>
+</p>
+
+A command-line chatbot that answers questions based on the content of multiple PDF files using a keyword-matching algorithm.
+
+📋 Table of Contents
+📖 Description
+
+✨ Features
+
+⚙️ How It Works
+
+🛠️ Requirements
+
+🚀 Setup and Usage
+
+💡 Example
+
 📖 Description
 This project is a command-line chatbot that answers questions based on the content of multiple PDF files. It extracts text from all PDFs in a specified folder, uses a keyword-matching algorithm to find the most relevant sentences related to a user's query, and synthesizes them into a concise answer.
 
 The script also builds a simple Deep Neural Network (DNN) and a Linear Regression model for demonstration purposes, but the core answering mechanism relies on a direct keyword search for simplicity and speed.
 
 ✨ Features
-Text Extraction: Automatically reads and extracts text from all PDF files placed in a pdfs folder.
+📁 Text Extraction: Automatically reads and extracts text from all PDF files placed in a pdfs folder.
 
-Keyword Search: Ranks sentences from the documents based on how many keywords they share with the user's question.
+🔍 Keyword Search: Ranks sentences from the documents based on how many keywords they share with the user's question.
 
-Concise Answers: Combines the most relevant sentences to generate a summary answer of approximately 100 words.
+📝 Concise Answers: Combines the most relevant sentences to generate a summary answer of approximately 100 words.
 
-Interactive Interface: Simple and easy-to-use command-line interface for asking questions.
+💻 Interactive Interface: Simple and easy-to-use command-line interface for asking questions.
 
 ⚙️ How It Works
 PDF Reading: The script first scans the pdfs directory and reads all text content from the .pdf files.
@@ -27,7 +49,7 @@ Scoring: It calculates a relevance score for each sentence by counting the numbe
 
 Answer Generation: The sentences with the highest scores are sorted, and their text is combined to form the final answer, which is then displayed to the user.
 
-📋 Requirements
+🛠️ Requirements
 You will need to have Python installed, along with the following libraries:
 
 PyPDF2
@@ -38,18 +60,18 @@ scikit-learn
 
 tensorflow
 
-You can install them using pip:
+You can install them all using pip:
 
 pip install PyPDF2 numpy scikit-learn tensorflow
 
 🚀 Setup and Usage
-Prepare your files:
+Prepare Your Files:
 
 Create a folder named pdfs in the same directory as the script.
 
 Place all the PDF files you want the chatbot to learn from inside this pdfs folder.
 
-Run the script:
+Run the Script:
 
 Open a terminal or command prompt.
 
@@ -57,7 +79,7 @@ Navigate to the project directory.
 
 Run the script using the following command:
 
-python project.py 
+python project.py
 
 (Note: If you are running it from the Jupyter Notebook, simply execute the cell.)
 
@@ -71,7 +93,7 @@ Type your question and press Enter.
 
 To stop the chatbot, type exit and press Enter.
 
-Example
+💡 Example
 You: what is the software development life cycle?
 
 Chatbot:
