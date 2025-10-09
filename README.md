@@ -1,10 +1,10 @@
 # training_project
 🤖 Simple PDF Q&A Chatbot
 <p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" alt="Python"/>
+
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/scikit--learn-F7931E%3Fstyle%3Dfor-the-badge%26logo%3Dscikit-learn%26logoColor%3Dwhite" alt="scikit-learn"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Numpy-013243%3Fstyle%3Dfor-the-badge%26logo%3Dnumpy%26logoColor%3Dwhite" alt="Numpy"/>
+
+
 </p>
 
 A command-line chatbot that answers questions based on the content of multiple PDF files using a keyword-matching algorithm.
